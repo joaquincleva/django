@@ -1,0 +1,14 @@
+{% extends "blog/layout.html" %}
+{% block title %}
+    Post | Django Blog
+{% endblock %}
+
+{% block main %}
+    <div>
+        <h2 class="pb-0"> {{ post.title }}</h2>
+        <p class="text-center"><small>{{ post.pub_date }} </small></p>
+    </div>
+    <section class="fs-5 w-75 m-auto mt-5 p-4 rounded-5 bg-white text-center">
+        {{ post.body }}
+    </section>
+{% endblock %}
