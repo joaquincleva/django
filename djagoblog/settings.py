@@ -34,7 +34,7 @@ SECRET_KEY = 'django-insecure-_cg*+q2w^9fcjc2@$$oeql%1aoz%j)d&f!sd8d4v-y95y#%ud%
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'y6aj3qju8efqj0w1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+    
 ]
 
 
@@ -86,6 +86,7 @@ WSGI_APPLICATION = 'djagoblog.wsgi.application'
 
 DATABASES = {
     'default': {
+        'HOST': 'y6aj3qju8efqj0w1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'llu002m71kvzgvpv',
         'USER': 'e20ixs3d69w521li',
