@@ -33,7 +33,9 @@ SECRET_KEY = 'django-insecure-_cg*+q2w^9fcjc2@$$oeql%1aoz%j)d&f!sd8d4v-y95y#%ud%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'y6aj3qju8efqj0w1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+]
 
 
 # Application definition
@@ -85,9 +87,9 @@ WSGI_APPLICATION = 'djagoblog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'prueba',
-        'USER': 'root',
-        'PASSWORD': 'Lorito7764567',
+        'NAME': 'llu002m71kvzgvpv',
+        'USER': 'e20ixs3d69w521li',
+        'PASSWORD': 'r1av2t76s6uy1la9',
         'PORT': '3306',
     }
 }
